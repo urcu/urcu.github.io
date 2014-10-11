@@ -32,18 +32,14 @@
           
           <h3>Documents</h3>
           <ul>
+            <li><a href="http://www.efficios.com/publications">User-Level Implementations of Read-Copy Update</li>
             <li><a href="http://lwn.net/Articles/262464/">What is RCU, Fundamentally?</a></li>
             <li><a href="https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html">Is Parallel Programming Hard, And, If So, What Can You Do About It?</a></li>
           </ul>
           
           <h3>Binary packages</h3>
           <p>
-            liburcu is available as a Debian package named <code>liburcu1</code>.
-            The development files are available in package <code>liburcu-dev</code>.
-          </p>
-          <p>
-            A package is also available on Arch Linux in the
-            <a href="https://aur.archlinux.org/packages/liburcu/">AUR</a>.
+            liburcu is available on most major Linux distributions.
           </p>
           
           <h3>Tarballs</h3>
@@ -67,12 +63,11 @@
           <hr>
           
           <p>
-            To the question <em>why is this hosted on the <a href="http://lttng.org/">LTTng</a> website?</em>,
-            the answer is: the userspace RCU library was needed for the LTTng userspace
-            tracer port. The userspace tracer implementation is therefore the motivation and
-            first user of <code>liburcu</code>.
-          </p>
-          
+            Initial motivation for creating the userspace RCU library:
+            The userspace RCU library was initially needed for the
+            <a href="http://lttng.org/">LTTng</a> userspace tracer port.
+            The userspace tracer implementation is therefore the motivation
+            and first user of <code>liburcu</code>.
           <p>
             Other projects use <code>liburcu</code>:
           </p>
