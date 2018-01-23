@@ -32,8 +32,8 @@
 
           <h3>Documents</h3>
           <ul>
-            <li><a href="http://www.efficios.com/publications">User-Level Implementations of Read-Copy Update</li>
-            <li><a href="http://lwn.net/Articles/262464/">What is RCU, Fundamentally?</a></li>
+            <li><a href="https://www.efficios.com/publications">User-Level Implementations of Read-Copy Update</li>
+            <li><a href="https://lwn.net/Articles/262464/">What is RCU, Fundamentally?</a></li>
             <li><a href="https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html">Is Parallel Programming Hard, And, If So, What Can You Do About It?</a></li>
           </ul>
 
@@ -45,7 +45,7 @@
           <h3>Tarballs</h3>
           <p>
             Packages are available
-            <a href="http://www.lttng.org/files/urcu/?O=D">here</a>.
+            <a href="https://www.lttng.org/files/urcu/?O=D">here</a>.
           </p>
 
           <h3>Repository</h3>
@@ -57,12 +57,12 @@
           <h3>Mailing list</h3>
           <p>
             For help and developer discussions, see the
-            <a href="http://lists.lttng.org/cgi-bin/mailman/listinfo/lttng-dev">LTTng mailing list</a>.
+            <a href="https://lists.lttng.org/cgi-bin/mailman/listinfo/lttng-dev">LTTng mailing list</a>.
           </p>
 
           <h3>Bug tracker</h3>
           <p>
-            <a href="http://bugs.lttng.org/projects/urcu">Userspace RCU's bug tracker</a>
+            <a href="https://bugs.lttng.org/projects/urcu">Userspace RCU's bug tracker</a>
             is the official system to report issues with the project and view their progress.
           </p>
 
@@ -71,7 +71,7 @@
           <p>
             Initial motivation for creating the userspace RCU library:
             The userspace RCU library was initially needed for the
-            <a href="http://lttng.org/">LTTng</a> userspace tracer port.
+            <a href="https://lttng.org/">LTTng</a> userspace tracer port.
             The userspace tracer implementation is therefore the motivation
             and first user of <code>liburcu</code>.
           <p>
@@ -182,14 +182,14 @@ accesses to offsets in a TLS structure on 32-bit x86. These versions are
 therefore not compatible with <code>liburcu</code> on x86 32-bit
 (i386, i486, i586, i686).
 The problem has been reported to the GCC community:
-<a href="http://www.mail-archive.com/gcc-bugs@gcc.gnu.org/msg281255.html">http://www.mail-archive.com/gcc-bugs@gcc.gnu.org/msg281255.html</a>
+<a href="https://www.mail-archive.com/gcc-bugs@gcc.gnu.org/msg281255.html">https://www.mail-archive.com/gcc-bugs@gcc.gnu.org/msg281255.html</a>
 </li>
 <li>GCC 3.3 cannot match the "xchg" instruction on 32-bit x86 build.
 See <a href="http://kerneltrap.org/node/7507">http://kerneltrap.org/node/7507</a>
 </li>
 <li>Alpha, ia64 and ARM architectures depend on GCC 4.x with atomic builtins
 support. For ARM this was introduced with GCC 4.4:
-<a href="http://gcc.gnu.org/gcc-4.4/changes.html">http://gcc.gnu.org/gcc-4.4/changes.html</a>.</li>
+<a href="https://gcc.gnu.org/gcc-4.4/changes.html">https://gcc.gnu.org/gcc-4.4/changes.html</a>.</li>
 </ul><p>Clang version 3.0 (based on LLVM 3.0) is supported.</p>
 
 <p>Building on MacOS X (Darwin) requires a work-around for processor
@@ -218,7 +218,7 @@ compile the git repository tree :</p>
 <li>GNU autotools (automake &gt;=1.10, autoconf &gt;=2.50, autoheader &gt;=2.50)
 (make sure your system wide <code>automake</code> points to a recent version!)</li>
 <li>GNU Libtool &gt;=2.2
-(for more information, go to <a href="http://www.gnu.org/software/autoconf/">http://www.gnu.org/software/autoconf/</a>)</li>
+(for more information, go to <a href="https://www.gnu.org/software/autoconf/">https://www.gnu.org/software/autoconf/</a>)</li>
 </ul><p>If you get the tree from the repository, you will need to use the <code>bootstrap</code>
 script in the root of the tree. It calls all the GNU tools needed to prepare
 the tree configuration.</p>
